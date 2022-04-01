@@ -2,7 +2,7 @@
 page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1526165336                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 1616715459                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
@@ -34,13 +34,17 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Manage Workflow Runs
-    description                           : Re-Run or Cancel any workflow run with a single tap!
-    fontawesome_icon_name                 : tasks
+  - title                                 : Create your Toggles
+    description                           : "Add a Toggle and set its ON/OFF state."
+    fontawesome_icon_name                 : "toggle-on"
 
-  - title                                 : Secure Login
-    description                           : Your credentials are securely transmitted only to GitHub servers and are stored locally in your device
-    fontawesome_icon_name                 : key
+  - title                                 : Share your Toggles
+    description                           : Anyone can see and change the status.
+    fontawesome_icon_name                 : "user-friends"
+
+  - title                                 : Unlimited Toggles
+    description                           : Add a toggle for each everyday item.
+    fontawesome_icon_name                 : hashtag
 
 # Theme Settings
 topbar_color                              : "#000000"

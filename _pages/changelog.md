@@ -6,16 +6,14 @@ include_in_header: false
 
 ### `Initial Release`
 # **Version 1.0**
-ActionsHub, a GitHub Actions client, is the easiest way to view and manage your GitHub Actions Workflows on your mobile.
+Toggle Ninja is an application that answers the question: "Did I leave my stove on?".
+The functionality of the Toggle Ninja is enjoyably straightforward. Simply add a toggle, set its initial status (ON/OFF) and save it. From there, you can share it with whoever you wish. Any user you wish to share a toggle will have the ability to change its status and the change will be known to you as well.
+
 
 Features:
-- Cancel or Re-run any Workflow Run with a single tap!
-- Monitor the progress and status of any Workflow Run and its Steps.
-- Connect directly to GitHub API. Your credentials are stored only on your device.
-- All the Workflow Run info - status, branch, Pull Request, Commit - in one screen.
 
-You will need to be a contributor to the repository to see it in the ActionsHub app.
-
-You will need to give ‘repo’ and ‘workflow’ scopes to the generated GitHub Access Token for the app to be fully functional.
-
-ActionsHub is not affiliated with GitHub in any way, and it is a third-party GitHub Actions client.
+- Add a toggle with a name and a status (ON/OFF).
+- Import a toggle from another user.
+- Edit a toggle's name and/or status.
+- Observe all your toggles' statuses.
+- Share a toggle of your own.
